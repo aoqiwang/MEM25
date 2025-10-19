@@ -1,0 +1,16 @@
+chr	-	chr1	Chr1	0	7476621	chr1
+chr	-	chr2	Chr2	0	5268805	chr2
+chr	-	chr3	Chr3	0	5138350	chr3
+chr	-	chr4	Chr4	0	4665194	chr4
+chr	-	chr5	Chr5	0	4303545	chr5
+chr	-	chr6	Chr6	0	3764495	chr6
+chr	-	chr7	Chr7	0	2948755	chr7
+chr	-	chr8	Chr8	0	2966669	chr8
+chr	-	chr9	Chr9	0	2916215	chr9
+chr	-	chr10	Chr10	0	2511424	chr10
+chr	-	chr11	Chr11	0	2533076	chr11
+chr	-	chr12	Chr12	0	2179511	chr12
+chr	-	chr13	Chr13	0	2081016	chr13
+chr	-	chr14	Chr14	0	1736457	chr14
+chr	-	chr15	Chr15	0	1311673	chr15
+chr	-	chr16	Chr16	0	1146179	chr16
