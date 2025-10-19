@@ -1,0 +1,2 @@
+Location of the S04_3657761 region. This region is situated downstream of gene CP4g4326 and upstream of CP4g4327. Exons are indicated as orange boxes and introns are shown in gray boxes. Empty boxes are intergenic regions. Colored dots indicate the Single Nucleotide Polymorphisms (SNPs) proximal to S04_3657761 in Chr04. Arrow indicates the position of nucleotide variation in S04_3657761.
+MEM25.g.vcf contains detailed mutation information of all mutants. Through IGV visualization, high-frequency mutations in S04_3657761 and its adjacent regions were discovered.

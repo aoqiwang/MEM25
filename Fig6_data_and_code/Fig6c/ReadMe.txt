@@ -1,0 +1,2 @@
+Genome-wide association scan for dry weight. The x-axis indicates SNP locations along the 16 chromosomes, separated by vertical grey lines; the y axis shows the − log10 (P value) from each method. The upper red line and dash–dot line signify the significance threshold (P = 5.98×10−7) and suggestive threshold (P = 5×10−5), respectively.
+Here we provide the GWAS results of the dry weight phenotype analyzed using Plink software, dw.assoc.linear, as well as the GWAS statistics after FDR verification (dw.assoc.linear.adjusted).
