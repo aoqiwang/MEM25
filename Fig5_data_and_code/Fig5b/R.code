@@ -1,0 +1,22 @@
+library(GOplot)
+library(purrr)
+library(tidyverse)
+library(clusterProfiler)
+library(DOSE)
+library(enrichplot)
+library(GSEABase)
+term2gene <- read.table("term2gene.txt",sep="\t",header = TRUE)
+term2name2 <- read.table("term2name2.txt",sep="\t",header = TRUE)
+genem3 <- read.csv("mh3-60.txt",header = F,sep=",")
+genem3 <- as.factor(genem3$V1)
+x=genem3
+ekp <- enricher(x,
+TERM2GENE = term2gene,
+TERM2NAME = term2name2,
+pvalueCutoff = 10,
+qvalueCutoff = 10,
+pAdjustMethod = "BH",
+minGSSize = 1)
+barplot(ekp, showCategory=10)
+ekp3 <-data.frame(ekp)
+write.table(ekp3,"mc3-60-ekp.tab",row.names = F,sep = "\t")
